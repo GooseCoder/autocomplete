@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import TextFilter from "./TextFilter";
 import SugestionList from "./SugestionList";
 import "./Autocomplete.css";
-import { get } from "http";
 
 interface AutocompleteProps {
   getEntries: (filter: string) => Promise<string[]>;

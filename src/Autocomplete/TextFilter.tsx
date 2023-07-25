@@ -1,15 +1,21 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 interface TextFilterProps {
-    onChange: (value: React.ChangeEvent<HTMLInputElement>) => void
-    onFocus: (e: React.FocusEvent<HTMLInputElement>) => void
-    value: string
-} 
-
-const TextFilter = ({value, onChange, onFocus} : TextFilterProps) => {
-  return (
-    <input type='text' onChange={onChange} value={value} onFocus={onFocus} />
-  )
+  onChange: (value: React.ChangeEvent<HTMLInputElement>) => void;
+  onFocus: (e: React.FocusEvent<HTMLInputElement>) => void;
+  value: string;
 }
 
-export default TextFilter
+const TextFilter = ({ value, onChange, onFocus }: TextFilterProps) => {
+  return (
+    <input
+      data-testid="text-filter"
+      type="text"
+      onChange={onChange}
+      value={value}
+      onFocus={onFocus}
+    />
+  );
+};
+
+export default TextFilter;
