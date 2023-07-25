@@ -1,0 +1,21 @@
+.sugestion-list {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 13rem;
+}
+
+.sugestion {
+  padding: 8px;
+  transition: background-color 0.2s;
+}
+
+.sugestion:hover {
+  background-color: #a0a0a0;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #303030;
+  color: #fff;
+}
