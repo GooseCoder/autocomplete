@@ -2,6 +2,14 @@
 
 Autocomplete component
 
+## Setup the project
+
+First you need to have at least the version 18 of [Node.js](https://nodejs.org) installed on your system and run the following command to install the required dependencies
+
+```
+$ npm install
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
