@@ -33,6 +33,10 @@ It bundles and compiles the project
 Since this project has been created using the create-react-app tool, \
 it can be ejected and use a custom webpack configuration.
 
+## Troubleshooting
+
+If for some reason the application fails to start please remove the node_modules folder and reinstall the dependencies again with `npm install`
+
 ## Usage
 
 A user needs to write a string using the input text and select an entry from the result list
