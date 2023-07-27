@@ -16,3 +16,8 @@
 .filter-container {
   display: flex;
 }
+
+.filter-clear-button {
+  background-color: #fff;
+  border: none;
+}

@@ -62,7 +62,7 @@ const Autocomplete = ({getEntries}: AutocompleteProps) => {
           onChange={filterHandler}
           onFocus={focusHandler}
         />
-        <button onClick={emptyFilter}>X</button>
+        <button className='filter-clear-button' onClick={emptyFilter}>X</button>
       </div>
       <div
         className="list-container"
